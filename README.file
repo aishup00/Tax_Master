@@ -1,0 +1,69 @@
+Tax Master
+
+Tax Master is a Python-based mini invoicing system that calculates and manages sales transactions with tax logic applied based on item rates and customer location.
+
+This project was created as part of a Python Developer assignment to demonstrate code structuring, logical thinking, and file handling in Python.
+
+📂 Project Structure
+Tax_Master/
+│
+├── main.py              # Main file – menu and transaction handling
+├── tax_rules.py         # Handles tax calculation and rule updates
+├── sales_data.csv       # Stores sales records
+├── tax_structure.csv    # Stores tax rates by country
+└── README.md            # Project documentation
+
+⚙️ Features
+
+Add new sales transactions interactively
+
+Auto-calculate tax based on country and item rate
+
+Display all recorded transactions
+
+Add or update tax rules dynamically
+
+Automatically creates CSV files if missing
+
+💰 Tax Rules
+Condition	Tax Rate
+Item rate > 2000 & Country = INDIA	10%
+Item rate ≤ 2000	Exempt
+Customer outside INDIA	Exempt from tax
+🧮 Example Output
+===== TAX MASTER =====
+1. Add Transaction
+2. Show All Sales
+3. Add/Update Tax Rule
+Enter your choice:
+
+🧠 Concepts Used
+
+Python file handling (CSV read/write)
+
+Conditional statements
+
+Modular programming
+
+Data persistence
+
+User input handling
+
+👩‍💻 Author
+
+Aishwarya P
+📧 aishwaryaprabhu175@gmail.com
+
+🌐 
+
+🚀 How to Run
+
+Clone this repo:
+
+git clone https://github.com/aishup00/Tax_Master.git
+cd Tax_Master
+
+
+Run:
+
+python main.py
