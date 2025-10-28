@@ -1,0 +1,11 @@
+TransactionDate,CustomerName,CountryCode,ItemName,ItemRate,Quantity,ItemAmount,TaxAmount,TotalAmount
+2025-10-28,Rohan Sharma,INDIA,Laptop,50000,1,50000,5000,55000
+2025-10-28,Rohan Sharma,INDIA,Book,1000,2,2000,0,2000
+2025-10-28,Neha Patel,USA,Smartphone,25000,1,25000,0,25000
+2025-10-28,Neha Patel,USA,Pen,100,5,500,0,500
+2025-10-28,Aarav Singh,INDIA,TV,30000,1,30000,3000,33000
+2025-10-28,Aarav Singh,INDIA,Notebook,150,3,450,0,450
+2025-10-28,Emily Roy,CAN,Laptop,50000,1,50000,0,50000
+2025-10-28,Raj Mehta,INDIA,Mobile,22000,1,22000,2200,24200
+2025-10-28,Raj Mehta,INDIA,Charger,800,1,800,0,800
+2025-10-28,Kiran Das,UK,Watch,5000,1,5000,0,5000
